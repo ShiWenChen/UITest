@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shiwen.uitest.MainActivity">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editText"
+        android:width="300dp"
+        android:height="40dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="跳转"
+        android:layout_below="@+id/editText"
+        android:id="@+id/btntest"/>
+
+
+    <RadioGroup
+        android:id="@+id/searchgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        >
+    <RadioButton
+        android:id="@+id/radioBtn1"
+        android:text="选项1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/radioBtn2"
+        android:text="选项2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/radioBtn3"
+        android:text="选项3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+
+</RelativeLayout>
