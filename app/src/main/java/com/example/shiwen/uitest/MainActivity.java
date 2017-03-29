@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.i(TAG, "未知状态");
                     }
                 }
-
+                Log.d(TAG, "onClick: 最新提交哈哈哈");
 //                Intent testInstent = new Intent(MainActivity.this,SecActivity.class);
 //                testInstent.putExtra("传递数据",edTest.getText().toString());
 //                startActivity(testInstent);
